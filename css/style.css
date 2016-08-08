@@ -16,7 +16,15 @@ body {
 
 #team-members .member img {
   width: 200px;
-  height: 200px; }
+  height: 200px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+#team-members .member img:hover {
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+  cursor: pointer; }
 
 #team-members .member div.name {
   text-align: center; }
